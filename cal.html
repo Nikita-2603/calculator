@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="./cal.css" rel="stylesheet">
+    <script src="./cal.js"></script>
+</head>
+
+<body class="cal">
+    <div class="container">
+        <table>
+            <tbody>
+                <tr>
+                    <td colspan="4">
+                        <input id="cal-input" class="input-box" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick="percent(event)">%</button>
+                    </td>
+                    <td>
+                        <button onclick="clearInput()">CE</button>
+                    </td>
+                    <td>
+                        <button onclick="clearInput()">C</button>
+                    </td>
+                    <td>
+                        <button onclick="backSpace()">B</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="num">
+                        <button onclick="enterNumber(event)">7</button>
+                    </td>
+                    <td class="num">
+                        <button onclick="enterNumber(event)">8</button>
+                    </td>
+                    <td class="num">
+                        <button onclick="enterNumber(event)">9</button>
+                    </td>
+                    <td>
+                        <button onclick="mul(event)">*</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="num">
+                        <button onclick="enterNumber(event)">4</button>
+                    </td>
+                    <td class="num">
+                        <button onclick="enterNumber(event)">5</button>
+                    </td>
+                    <td class="num">
+                        <button onclick="enterNumber(event)">6</button>
+
+                    </td>
+                    <td>
+                        <button onclick="sub(event)">-</button>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="num">
+                        <button onclick="enterNumber(event)">3</button>
+                    </td>
+                    <td class="num">
+                        <button onclick="enterNumber(event)"> 2</button>
+                    </td>
+                    <td class="num">
+                        <button onclick="enterNumber(event)">1</button>
+                    </td>
+                    <td>
+                        <button onclick="add(event)">+</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick="equal(event)">=</button>
+                    </td>
+                    <td class="num">
+                        <button onclick="enterNumber(event)">0</button>
+                    </td>
+                    <td>
+                        <button onclick="dot()">.</button>
+                    </td>
+                    <td>
+                        <button onclick="divide(event)">/</button>
+                    </td>
+                </tr>
+
+        </table>
+        </tbody>
+    </div>
+
+</body>
+
+</html>
